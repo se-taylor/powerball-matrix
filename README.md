@@ -4,7 +4,7 @@ The Powerball Matrix is something I created in spreadsheets and became too lazy 
 
 The Powerball spider collects the winning numbers from the interwebs, then returns from its journey to compile this data. I have displayed the data in numerous ways, to try and gain insight into otherwise randomly drawn numbers.
 
-Updates are automatically completed one hour after the drawings are made, three times a week.
+Updates are automatically completed within a few hours after the drawings are made, three times a week.
 
 ### Features
 
