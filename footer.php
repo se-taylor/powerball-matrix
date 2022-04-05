@@ -13,7 +13,6 @@
     </div>
 
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-    <script src="scripts/main.js"></script>
 
   </body>
 </html>

@@ -38,7 +38,7 @@
     <script type="text/javascript">
     var $ = jQuery.noConflict();
     $(document).ready(function() {
-        var pathname = (window.location.pathname.match(/[^\/]+$/)[0]);
+        var pathname = (window.location.pathname.match(/[^\/]+$/));
         $('.mdl-layout__tab').each(function() {
             if ($(this).attr('href').indexOf(pathname) >= 0) {
                 $(this).addClass('is-active');
