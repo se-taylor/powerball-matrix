@@ -11,7 +11,6 @@ df = pd.read_csv('p-a-t-h/csv/Lottery_Powerball_Winning_Numbers__Beginning_2010.
 
 df['Multiplier'] = df['Multiplier'].astype('Int64')
 df.sort_values(["Draw Date"], axis=0, ascending=[False], inplace=True)
-print(df)
 df.to_csv('p-a-t-h/csv/powerball.csv', mode='w')
 
 
@@ -112,21 +111,3 @@ df = pd.read_csv('p-a-t-h/csv/powerball_ten.csv',
 
 df['Multiplier'] = df['Multiplier'].astype('Int64')
 df.to_csv('p-a-t-h/csv/powerball_ten_clean.csv', header=None)
-
-
-#2015-10-07 Nine Less
-df = pd.read_csv('p-a-t-h/csv/powerball.csv')
-df['Multiplier'] = df['Multiplier'].astype('Int64')
-
-df = df[pd.to_datetime(df['Draw Date']) < '2015-10-07']
-
-df.to_csv('p-a-t-h/csv/powerball_nine.csv', mode='w', index=None)
-
-df = pd.read_csv('p-a-t-h/csv/powerball_nine.csv',
-            index_col='Winning Numbers',
-            header=0,
-            usecols = [1, 2],
-            names=['Draw Date', 'Winning Numbers', 'Multiplier'])
-
-df['Multiplier'] = df['Multiplier'].astype('Int64')
-df.to_csv('p-a-t-h/csv/powerball_nine_clean.csv', header=None)
