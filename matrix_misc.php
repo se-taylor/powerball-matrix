@@ -8,6 +8,7 @@ require 'head.php';
           <section class="section mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
             <h4><?php echo $title_pbm; ?></h4>
+            <div class="mdl-components__information">The Miscellaneous page is similar to the Winning Numbers page, but it is showing other factors that may or may not have anything to do with anything.</div>
 
 <table id="myTable" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp"> 
 <thead> 

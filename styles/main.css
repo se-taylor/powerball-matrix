@@ -210,6 +210,14 @@ html, body {
 }
 
 /* custom */
+.mdl-components__information {
+	margin: 0 auto;
+    background-color: #fafafa;
+    padding: 16px;
+    border-radius: 2px;
+    border: 1px solid #efefef;
+}
+
 .mdl-layout.is-small-screen .mdl-layout--large-screen-only {
     display: inherit !important;
 }

@@ -8,6 +8,7 @@ require 'head.php';
           <section class="section mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
             <h4><?php echo $title_pbm; ?></h4>
+            <div class="mdl-components__information">The Powerball Winning Numbers page is a display of all winning numbers in the order they were drawn from every date on Monday, Wednesday &amp; Saturday starting 11/01/1997.</div>
 
 <table id="myTable" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp"> 
 <thead> 

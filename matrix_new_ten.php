@@ -8,7 +8,7 @@ require 'head.php';
           <section class="section mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
             <h4><?php echo $title_pbm; ?></h4>
-            Data Collection Since 10/07/2015
+            <div class="mdl-components__information">The New 10 page is showing a view of just the new balls that were added, 60 through 69. (Data Collection Since 10/07/2015)</div>
 
 <table id="myTable" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
 <thead>

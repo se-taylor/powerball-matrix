@@ -8,6 +8,7 @@ require 'head.php';
           <section class="section mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
             <h4><?php echo $title_pbm; ?></h4>
+            <div class="mdl-components__information">The Powerball Matrix page is showing the numbers 1 - 69 in the black column, and to the left of this, it shows how many times that number was drawn overall. To the right of this column, is the in-order drawn matrix to show how many times each number was drawn in that exact order. Colored cells help create a heatmap effect based on the number contained in that cell, using Red, Yellow &amp; Green.</div>
 
 <?php require 'matrix/tbl_hdr.php'; ?>
 

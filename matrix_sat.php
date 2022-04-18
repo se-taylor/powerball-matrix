@@ -8,6 +8,7 @@ require 'head.php';
           <section class="section mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
             <h4><?php echo $title_pbm; ?></h4>
+            <div class="mdl-components__information">The Saturday page is showing a matrix of winning numbers and their averages restricted to Saturday only.</div>
 
 <?php require 'matrix/tbl_mws_hdr.php'; ?>
 

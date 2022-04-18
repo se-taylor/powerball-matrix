@@ -8,7 +8,7 @@ require 'head.php';
           <section class="section mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
             <h4><?php echo $title_pbm; ?></h4>
-            Data Collection Until 10/07/2015
+            <div class="mdl-components__information">The 9 Less page is showing the remaining data from the removal of the Powerballs, 27 through 35. (Data Collection Until 10/07/2015)</div>
 
 <table id="myTable" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
 <thead>
