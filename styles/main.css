@@ -210,6 +210,30 @@ html, body {
 }
 
 /* custom */
+.ball_grey {
+    font-size: 1.7rem;
+    font-weight: 700;
+    box-shadow: 0 0 0.85rem #ccc inset;
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+
+.ball_red {
+    font-size: 1.7rem;
+    font-weight: 700;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #d50000;
+}
+
+.ball_pp {
+    font-size: 1.7rem;
+    border: 1px solid #000;
+    color: #d50000;
+    background-color: #fff;
+}
+
 .mdl-components__information {
 	margin: 0 auto;
     background-color: #fafafa;

@@ -1,6 +1,5 @@
 </tbody>
 </table>
-
-            </div>
-          </section>
-        </div>
+</div>
+</section>
+</div>

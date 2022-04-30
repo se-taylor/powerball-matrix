@@ -35,20 +35,7 @@
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.tablesorter.min.js"></script>
-    <script type="text/javascript">
-    var $ = jQuery.noConflict();
-    $(document).ready(function() {
-        var pathname = (window.location.pathname.match(/[^\/]+$/));
-        $('.mdl-layout__tab').each(function() {
-            if ($(this).attr('href').indexOf(pathname) >= 0) {
-                $(this).addClass('is-active');
-            }
-        });
-    });
-    $(function() {
-    	$("table").tablesorter({debug: true})
-    });
-    </script>
+    <script type="text/javascript" src="scripts/javascript.min.js"></script>
     
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0123456789"></script>
@@ -82,6 +69,7 @@
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
           <h3>Powerball Matrix</h3>
+          <img src="images/powerball.svg" width="15%" height="55%" alt="Powerball Logo" style="">
         </div>
 		<?php require 'matrix/nav.php'; ?>
       </header>

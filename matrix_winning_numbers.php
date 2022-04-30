@@ -45,11 +45,7 @@ echo "</tr>";
 
 ?>
 
-</tbody> 
-</table>
-
-            </div>
-          </section>
-        </div>
-        
-<?php require 'footer.php'; ?>
+<?php
+require 'matrix/tbl_ftr.php';
+require 'footer.php';
+?>
